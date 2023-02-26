@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ccc;
+}
+
+.main .heading h1, .main .heading p {
+  text-align: center;
+  margin: 25px auto;
+  font-size: 25px;
+}
+.main .content {
+  display: flex;
+  margin: 0 60px;
+}
+.main .content .left {
+  width: 66.66%;
+  height: 100%;
+}
+.main .content .left .box {
+  background-color: #fff;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+.main .content .right {
+  width: 33.33%;
+  height: 100%;
+}/*# sourceMappingURL=index.css.map */
