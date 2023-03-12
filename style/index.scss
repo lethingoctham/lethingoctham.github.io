@@ -1,7 +1,10 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
 }
 body{
   background-color: #f5f7f8;
@@ -26,14 +29,14 @@ body{
                       display: inline-block;
                       font-size: 26px;
                       border: none;
-                  }
+                    }
                   .subnav{
                       display: none;
                       // position: absolute;
                       // background-color: #fff;
                       // min-width: 260px;
                       // box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-                  }
+                    }
                   // .avtac{
                   //     padding: 12px 24px;
                   //     background-color: #4d636f;
